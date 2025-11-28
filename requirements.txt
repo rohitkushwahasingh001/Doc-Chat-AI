@@ -1,0 +1,14 @@
+streamlit
+google-generativeai
+langchain
+langchain-google-genai
+langchain-community
+langchain-experimental
+faiss-cpu
+pandas
+openpyxl
+python-docx
+python-pptx
+matplotlib
+tabulate
+python-dotenv
