@@ -39,3 +39,79 @@ Follow these steps to run the project on your own machine.
 ```bash
 git clone [https://github.com/your-username/gemini-3d-chatbot.git](https://github.com/your-username/gemini-3d-chatbot.git)](https://github.com/rohitkushwahasingh001/Doc-Chat-AI)
 cd Doc-Chat-AI
+```
+### 2. Create a Virtual Environment
+```
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+### 3. Install Dependencies
+```
+pip install -r requirements.txt
+```
+### 4. Setup Environment Variables
+```
+GOOGLE_API_KEY="AIzaSy...[Get this from Google AI Studio]"
+```
+### 5. Run the App
+```
+Bash
+
+streamlit run app.py
+```
+☁️ How to Deploy (Streamlit Cloud)
+You can make this app live on the internet for free using Streamlit Community Cloud.
+
+Push to GitHub: Upload your code (app.py, requirements.txt) to a GitHub repository. Do not upload .env.
+
+Go to Streamlit Cloud: Login to share.streamlit.io.
+
+New App: Click "New App" and select your repository.
+
+Add Secrets:
+
+Before clicking deploy, go to "Advanced Settings".
+
+Find the "Secrets" box.
+
+Add your API key there:
+
+Ini, TOML
+
+GOOGLE_API_KEY = "AIzaSy...[Your Key]"
+Deploy: Click "Deploy" and wait for the app to go live!
+
+📂 Project Structure
+Plaintext
+
+Gemini-3D-Workspace/
+├── app.py                # Main Application Code (UI + Logic)
+├── requirements.txt      # List of Python libraries
+├── .env                  # API Key (Local only, ignored by Git)
+├── .gitignore            # Files to exclude from Git
+├── faiss_index/          # Local storage for vectors (Auto-generated)
+└── README.md             # Documentation
+🧩 Tech Stack
+Frontend: Streamlit (Custom CSS)
+
+LLM: Google Gemini 2.5 Flash (via google-generativeai)
+
+Orchestration: LangChain
+
+Vector Store: FAISS (Facebook AI Similarity Search)
+
+Data Tools: Pandas, Matplotlib, OpenPyXL
+
+Document Parsing: PyPDF2, Python-Docx, Python-PPTX
+
+🤝 Contributing
+Contributions are welcome! Please fork this repository and submit a Pull Request.
+
+📄 License
+This project is licensed under the MIT License.
+
