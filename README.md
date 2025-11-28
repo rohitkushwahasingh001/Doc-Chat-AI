@@ -1,0 +1,41 @@
+# 🌌 DOC-CHAT AI
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit)
+![Gemini](https://img.shields.io/badge/Google%20Gemini-2.5%20Flash-8E75B2?style=for-the-badge&logo=google)
+![LangChain](https://img.shields.io/badge/LangChain-RAG%20%26%20Agents-green?style=for-the-badge)
+
+**A Next-Gen AI Document Assistant capable of reading handwriting, analyzing Excel data, generating plots, and processing messy PDFs using the power of Google Gemini 2.5 Flash.**
+
+---
+
+## 🚀 Overview
+
+This project is a sophisticated **RAG (Retrieval-Augmented Generation)** application wrapped in a futuristic **3D Sci-Fi Interface**. Unlike traditional chatbots that only read text, this workspace uses **Multimodal AI** to "see" your documents.
+
+It can ingest scanned PDFs, handwritten notes, images, Word docs, and PowerPoint slides. Additionally, it features an autonomous **Data Agent** that can write Python code to analyze Excel sheets and generate visual graphs on the fly.
+
+## ✨ Key Features
+
+* **⚡ Native Multimodal Processing:** Uses Gemini 2.5 Flash to directly process PDFs and Images. It can read complex **handwriting** and interpret charts/diagrams without OCR libraries like Tesseract.
+* **📊 Excel Data Agent:** Upload an `.xlsx` file and ask questions like *"Plot a bar chart of sales vs. year"* or *"What is the average of column X?"*. The agent writes code to create the visualization.
+* **🏎️ Parallel Processing Engine:** Multi-threaded architecture processes multiple files simultaneously, reducing wait times by up to 80%.
+* **🧠 Advanced RAG:** Uses FAISS Vector Store and Google Embeddings to provide accurate, context-aware answers from your knowledge base.
+* **🌌 3D Immersive UI:** A custom-styled interface with deep-space backgrounds, glassmorphism, and 3D glowing buttons.
+
+## 🎯 Use Cases
+
+1.  **Student Research:** Upload 10 textbooks and handwritten class notes. Ask the bot to summarize concepts connecting both sources.
+2.  **Financial Analysis:** Upload an Excel balance sheet. Ask the bot to plot the revenue trend and calculate year-over-year growth.
+3.  **Legal/Medical:** Process scanned contracts or medical prescriptions (handwritten) and digitize/summarize them instantly.
+
+---
+
+## 🛠️ Installation & Local Setup
+
+Follow these steps to run the project on your own machine.
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/gemini-3d-chatbot.git](https://github.com/your-username/gemini-3d-chatbot.git)](https://github.com/rohitkushwahasingh001/Doc-Chat-AI)
+cd Doc-Chat-AI
