@@ -65,6 +65,7 @@ Bash
 streamlit run app.py
 ```
 ☁️ How to Deploy (Streamlit Cloud)
+
 You can make this app live on the internet for free using Streamlit Community Cloud.
 
 Push to GitHub: Upload your code (app.py, requirements.txt) to a GitHub repository. Do not upload .env.
@@ -82,13 +83,14 @@ Find the "Secrets" box.
 Add your API key there:
 
 Ini, TOML
-
+```
 GOOGLE_API_KEY = "AIzaSy...[Your Key]"
+```
 Deploy: Click "Deploy" and wait for the app to go live!
 
 📂 Project Structure
 Plaintext
-
+```
 Gemini-3D-Workspace/
 ├── app.py                # Main Application Code (UI + Logic)
 ├── requirements.txt      # List of Python libraries
@@ -96,6 +98,8 @@ Gemini-3D-Workspace/
 ├── .gitignore            # Files to exclude from Git
 ├── faiss_index/          # Local storage for vectors (Auto-generated)
 └── README.md             # Documentation
+
+```
 🧩 Tech Stack
 Frontend: Streamlit (Custom CSS)
 
@@ -104,10 +108,12 @@ LLM: Google Gemini 2.5 Flash (via google-generativeai)
 Orchestration: LangChain
 
 Vector Store: FAISS (Facebook AI Similarity Search)
+```
 
 Data Tools: Pandas, Matplotlib, OpenPyXL
 
 Document Parsing: PyPDF2, Python-Docx, Python-PPTX
+```
 
 🤝 Contributing
 Contributions are welcome! Please fork this repository and submit a Pull Request.
